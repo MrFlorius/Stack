@@ -1,4 +1,5 @@
 # Stacking-гиперказуалка
+![Alt Text](https://media1.giphy.com/media/cltygcAPLb9Ngqmy4s/giphy.gif)
 
 Changelog  относительно окончания стрима
 ----------------------------------------
@@ -30,6 +31,7 @@ Changelog  относительно окончания стрима
 - Любая книга за авторством Эндрю Троелсена. Например, **"Язык программирования C# 7 и платформы .NET и .NET Core, 8-е издание"**
 - [Официальная документация Microsoft по C#](https://docs.microsoft.com/ru-ru/dotnet/csharp/)
 - [Официальная документация Unity](https://docs.unity3d.com/Manual/index.html)
+- [Доска в трелло с расписаной программой обучения](https://trello.com/b/F45wBFbU/unity-dev-learning-guide-by-tilt-shift)
 - [Доска в трелло где написано как не надо делать](https://trello.com/b/Z6cDRyis/good-coding-practices-in-unity)
 - [Планин для работы с TapticEngine](https://github.com/asus4/unity-taptic-plugin), поддерживает установку через upm
 - [Плагин для работы с экраном IphoneX и IPad Pro и старше](https://bitbucket.org/p12tic/iossafeareasplugin/src). [Подробная статья на хабре](https://habr.com/ru/company/pixonic/blog/351184/)
