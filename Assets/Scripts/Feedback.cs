@@ -14,7 +14,7 @@ public class Feedback : MonoBehaviour
 #endif
         };
 
-        GameManager.Instance.OnBlockPlaced += () =>
+        GameManager.Instance.OnBlockFailed += () =>
         {
 #if UNITY_IOS
             TapticManager.Notification(NotificationFeedback.Error);
