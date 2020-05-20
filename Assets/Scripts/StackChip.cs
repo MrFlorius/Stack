@@ -126,9 +126,8 @@ public class StackChip : MonoBehaviour
     private StackChip SpawnFallingChop(Vector3 min, Vector3 max)
     {
         //проверка на неравенство размеров по осям нулям
-        for(int i = 0; i < 3; i++)
-            if (Mathf.Abs((max - min)[i]) < float.Epsilon)
-                return null;
+        if ((max - min).All())
+            return null;
                 
         var c = Instantiate(this);
         SetByRect(c.transform, min, max);
@@ -140,9 +139,8 @@ public class StackChip : MonoBehaviour
     private static bool SetByRect(Transform transform, Vector3 min, Vector3 max)
     {
         //проверка на неравенство размеров по осям нулям
-        for(int i = 0; i < 3; i++)
-            if (Mathf.Abs((max - min)[i]) < float.Epsilon)
-                return false;
+        if ((max - min).All())
+            return false;
         
         transform.position = min + (max - min) / 2;
         transform.localScale = max - min;

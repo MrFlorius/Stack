@@ -30,4 +30,13 @@ public static class Extensions
         
         return v;
     }
+
+    public static bool All(this Vector3 aVector3)
+    {
+        for(int i = 0; i < 3; i++)
+            if (Mathf.Abs((aVector3)[i]) < float.Epsilon)
+                return false;
+
+        return true;
+    }
 }
